@@ -696,7 +696,6 @@ body {
         var(--dark-color) 60%
       );
       -webkit-mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
-      mask-image: linear-gradient(to top, transparent 30%, #079097 60%);
     }
 
     &--1 {
@@ -880,15 +879,6 @@ body {
         );
 
       -webkit-mask-image: linear-gradient(
-      mask-image: linear-gradient(
-      mask-image: linear-gradient(
-      mask-image: linear-gradient(
-        to bottom right,
-        #159faa 50%,
-        transparent 50%,
-        transparent
-      );
-      mask-image: linear-gradient(
         to bottom right,
         #159faa 50%,
         transparent 50%,
@@ -928,7 +918,6 @@ body {
       border-top-left-radius: 100%;
       border-left: 2vmin solid #079097;
       -webkit-mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
-      mask-image: linear-gradient(to top, transparent 25%, #079097 50%);
       position: relative;
       z-index: 1;
     }
